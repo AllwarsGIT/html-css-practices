@@ -9,8 +9,35 @@ h1{
     color: white;
     font-size: 50px;
 }
-
 p{
     color: white;
     font-size: 20px;
+    background-color: rgb(79, 118, 175);
+    padding: 20px;  
+}
+
+.textoPrueba{
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    padding: 20px;  
+}
+
+.tarjeta{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    height: 200px;
+    transform: rotate(-20deg);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.tarjeta:hover {
+    transform: scale(1.05);
+    width: 400px;
+    width: 400px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: rotate(20deg);
+    -webkit-transition: all 0.3s ease;
 }
