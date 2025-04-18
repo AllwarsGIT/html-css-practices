@@ -7,15 +7,26 @@
   <link rel="stylesheet" href="style.css"> <!-- Esto es un enlace a un archivo CSS externo -->
 </head>
 <body>
-  <h1>¡Hola mundo!</h1>
-  <p>Este es mi primer ejercicio con CSS.</p>
-  <p class="textoPrueba" style="color: rgb(76, 145, 145);">Test texto</p> <!--Esto es inline-->
-<!-- boton triple -->
-  <div class="boton_triple">
-    <div></div>
-    <div></div>
-    <div></div>
+  <!-- este orden de containers es supuestamente para funcionalidad(es buena practica supongo) -->
+  <div class="aplicacion"> 
+    <div class="layout_container">
+      <div class="header">
+        <nav class="navheader">
+          <div class="container_buttons">
+            <button class="button">
+              <span class="inside button">Prueba</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
   </div>
+  <!-- boton triple -->
+  <!-- <div class="boton_triple">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div> -->
   <div class="caja">
     <div></div>
   </div>
